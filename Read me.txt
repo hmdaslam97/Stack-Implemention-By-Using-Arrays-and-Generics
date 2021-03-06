@@ -1,0 +1,52 @@
+Hi there,
+
+In this Java Project I have Implemented Stack by using Arrays Only
+
+If you want to use this version of Stack you may follow any of Below ways
+Note: Eclipse IDE was Used to Create this Project
+
+Way 1:By using Source file
+>Copy the Stacks.java file onto the Package where you want to use.
+>Create the Reference for the Stacks Class inside that class where you want to perform Stack operations
+>Call Stack Functions by using reference variable.
+
+Way 2:By using Jar file
+>Right click on your Project
+>click on Build Path
+>Select Config Build Path
+>Go to Library section
+>click on Add External Jar
+>Select the Path Where Stacks.jar file is located
+In my case C:\Users\Admin\Desktop\Stack_Project\Stacks.jar
+>Click on Apply and Close
+>In the File Where Stack has to be Implemented Import the Stacks
+In my case : import myUtility.Stacks;
+
+Now you are Good to Go.
+
+This version of Stack has following Methods Which simulate Methods of actual Stack Which is Present in java.util.Stack;
+Note:This version of Stack supports Generic where in user can create Stack of Different Datatypes
+
+> push(data)  	:Inserts object into stack in the Form of LIFO or FILO 
+> pop()		:Removes last element added and return it
+> peek()	:Returns last element added without Removing from stack
+> contains(data):Checks if Element is present in Stack and returns boolean
+> size()	:Returns no of Elements in Stack
+> reverse()	:Reverses the Stack Elements
+
+> Iterator Methods
+Note: there is no need to create Iterator type reference to use Iterator methods instead they can directly be called by Stacks reference
+	> hasNext()	:Checks If Element is Present Based on Next Position of Stack and Returns Boolean
+	> next()	:Returns Element Present Based on Next Position of Stack
+	> remove()	:Removes the Element Based on Position of Stack 
+
+> traverse(index):Returns Element Based on index of Stack Elements
+> print()	:Displays Elements Present in Stack in the form of container
+> toString()	:Overriden to display Stack Elements directly when ever Stacks reference is printed.
+> isEmpty()	:Checks if Stack is Empty and Return Boolean value
+> capacity()	:Returns the Maximum Capacity of Stack 
+> growStack()	:Grows the Stack Capacity by 5 Elements
+> search(data)	:Checks the Element Present in Stack and Returns its Position in Stack Counted From TOP
+> index(data)	:Checks the Element Present in Stack and Returns its index in Stack 
+
+=============================  Enjoy Learning (*=*) ======================================
